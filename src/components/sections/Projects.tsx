@@ -145,7 +145,7 @@ const Projects = () => {
                   asChild
                 >
                   <a href={project.demoUrl} target="_blank" rel="noopener noreferrer">
-                    <ExternalLink size={14} />
+                    <ExternalLink className="w-4 h-4" />
                     Live Demo
                   </a>
                 </Button>
@@ -157,7 +157,7 @@ const Projects = () => {
                   asChild
                 >
                   <a href={project.githubUrl} target="_blank" rel="noopener noreferrer">
-                    <Github size={14} />
+                    <Github width={14} height={14} />
                     Source
                   </a>
                 </Button>
@@ -194,7 +194,7 @@ const Projects = () => {
         <a href="https://github.com/MoizHanifdev?tab=repositories" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
           <Button variant="outline" className="rounded-full px-8 gap-2" size="lg">
             <span>View All Projects</span>
-            <ExternalLink size={16} />
+            <ExternalLink width={16} height={16} />
           </Button>
           </a>
         </div>

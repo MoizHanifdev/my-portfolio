@@ -82,7 +82,7 @@ const About = () => {
                 <div className="about-card p-4 bg-card rounded-lg border border-border/50 hover:border-primary/50 transition-colors duration-300 hover:shadow-md">
                   <div className="flex items-start gap-3">
                     <div className="h-10 w-10 rounded-full bg-primary/10 flex items-center justify-center text-primary">
-                      <User size={20} />
+                      <User width={20} height={20} />
                     </div>
                     <div>
                       <h4 className="font-medium">Personal Info</h4>
@@ -96,7 +96,7 @@ const About = () => {
                 <div className="about-card p-4 bg-card rounded-lg border border-border/50 hover:border-primary/50 transition-colors duration-300 hover:shadow-md">
                   <div className="flex items-start gap-3">
                     <div className="h-10 w-10 rounded-full bg-primary/10 flex items-center justify-center text-primary">
-                      <Briefcase size={20} />
+                      <Briefcase width={20} height={20} />
                     </div>
                     <div>
                       <h4 className="font-medium">Experience</h4>
@@ -110,7 +110,7 @@ const About = () => {
                 <div className="about-card p-4 bg-card rounded-lg border border-border/50 hover:border-primary/50 transition-colors duration-300 hover:shadow-md">
                   <div className="flex items-start gap-3">
                     <div className="h-10 w-10 rounded-full bg-primary/10 flex items-center justify-center text-primary">
-                      <GraduationCap size={20} />
+                      <GraduationCap width={20} height={20} />
                     </div>
                     <div>
                       <h4 className="font-medium">Education</h4>
@@ -124,7 +124,7 @@ const About = () => {
                 <div className="about-card p-4 bg-card rounded-lg border border-border/50 hover:border-primary/50 transition-colors duration-300 hover:shadow-md">
                   <div className="flex items-start gap-3">
                     <div className="h-10 w-10 rounded-full bg-primary/10 flex items-center justify-center text-primary">
-                      <FileText size={20} />
+                      <FileText width={20} height={20} />
                     </div>
                     <div>
                       <h4 className="font-medium">Projects</h4>

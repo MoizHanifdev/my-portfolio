@@ -68,6 +68,7 @@ const Skills = () => {
     return () => {
       if (currentContainer) observer.unobserve(currentContainer);
     };
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const SkillCard = ({ skill }: { skill: Skill }) => {

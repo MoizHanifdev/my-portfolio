@@ -27,20 +27,20 @@ const Footer = () => {
             <div className="flex space-x-4 justify-center md:justify-end">
             <a href="https://github.com/MoizHanifdev/" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
               <Button variant="ghost" size="icon" aria-label="GitHub">
-                <Github size={20} />
+                <Github width={20} height={20} />
               </Button>
             </a>
               <a href="https://www.linkedin.com/in/moizhanifdev/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
                 <Button variant="ghost" size="icon">
-                  <Linkedin size={20} />
+                  <Linkedin width={20} height={20} />
                 </Button>
               </a>
               <Button variant="ghost" size="icon" aria-label="Twitter">
-                <Twitter size={20} />
+                <Twitter width={20} height={20} />
               </Button>
               <a href="moizhanif.dev@gmail.com" target="_blank" rel="noopener noreferrer" aria-label="Email">
               <Button variant="ghost" size="icon" aria-label="Email">
-                <Mail size={20} />
+                <Mail width={20} height={20} />
               </Button>
               </a>
             </div>

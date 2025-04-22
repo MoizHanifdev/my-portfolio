@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { useSpring, animated } from 'react-spring';
-import { Menu, X } from 'lucide-react';
+import { MenuIcon, X } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import ThemeToggle from '../common/ThemeToggle';
 import { cn } from '@/lib/utils';
@@ -134,7 +134,7 @@ const Navbar: React.FC<NavbarProps> = ({ scrollDirection }) => {
             onClick={() => setIsMenuOpen(!isMenuOpen)}
             aria-label="Toggle menu"
           >
-            {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
+            {isMenuOpen ? <X width={24} height={24} /> : <MenuIcon width={24} height={24} />}
           </Button>
         </div>
       </div>
@@ -147,7 +147,7 @@ const Navbar: React.FC<NavbarProps> = ({ scrollDirection }) => {
         )}
         style={{ top: '64px' }}
       >
-        <nav className="container mx-auto px-6 py-8">
+        <nav className="container mx-auto px-6 py-8 bg-black">
           <ul className="flex flex-col space-y-6">
             {navLinks.map((link) => (
               <li key={link.name} className="border-b border-border/20 pb-4">

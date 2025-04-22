@@ -145,13 +145,13 @@ const Experience = () => {
                         <h3 className="text-xl font-bold">{exp.role}</h3>
                         <div className="flex flex-col sm:flex-row sm:items-center gap-2 sm:gap-4 mt-2">
                           <span className="text-muted-foreground flex items-center gap-1">
-                            <Briefcase size={14} /> {exp.company}
+                            <Briefcase width={14} height={14} /> {exp.company}
                           </span>
                           <span className="text-muted-foreground hidden sm:flex items-center gap-1">
-                            <Calendar size={14} /> {exp.period}
+                            <Calendar width={14} height={14} /> {exp.period}
                           </span>
                           <span className="text-muted-foreground flex items-center gap-1">
-                            <MapPin size={14} /> {exp.location}
+                            <MapPin width={14} height={14} /> {exp.location}
                           </span>
                         </div>
                       </div>
@@ -163,9 +163,9 @@ const Experience = () => {
                         onClick={() => toggleExpand(exp.id)}
                       >
                         {expandedId === exp.id ? (
-                          <ChevronUp size={18} />
+                          <ChevronUp width={18} height={18} />
                         ) : (
-                          <ChevronDown size={18} />
+                          <ChevronDown width={18} height={18} />
                         )}
                       </Button>
                     </div>
