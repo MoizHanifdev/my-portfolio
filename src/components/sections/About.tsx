@@ -156,7 +156,7 @@ const About = () => {
             >
               <div className="w-full h-full rounded-full overflow-hidden border-2 border-background">
                 <img 
-                  src="/images/Profile.jpg" 
+                  src={`${import.meta.env.BASE_URL}Profile.jpg`}
                   alt="Moist Khan" 
                   className="w-full h-full object-cover hover:scale-110 transition-transform duration-700" 
                 />

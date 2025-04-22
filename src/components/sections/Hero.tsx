@@ -161,7 +161,7 @@ const Hero = () => {
             <div className="relative w-[400px] h-[400px] rounded-full bg-gradient-to-br from-primary/10 to-purple-500/30 flex items-center justify-center">
               <div className="absolute w-[90%] h-[90%] rounded-full bg-card flex items-center justify-center overflow-hidden border border-border/50">
                 <img 
-                  src="/images/Profile.jpg" 
+                  src={`${import.meta.env.BASE_URL}Profile.jpg`} 
                   alt="Moiz Khan" 
                   className="w-full h-full object-cover transform hover:scale-110 transition-transform duration-500" 
                 />
