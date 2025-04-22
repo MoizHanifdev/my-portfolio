@@ -147,7 +147,7 @@ const Navbar: React.FC<NavbarProps> = ({ scrollDirection }) => {
         )}
         style={{ top: '64px' }}
       >
-        <nav className="container mx-auto px-6 py-8 bg-black">
+        <nav className="container mx-auto px-6 py-8 bg-black dark:bg-white">
           <ul className="flex flex-col space-y-6">
             {navLinks.map((link) => (
               <li key={link.name} className="border-b border-border/20 pb-4">
