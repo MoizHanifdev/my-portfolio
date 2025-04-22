@@ -1,6 +1,6 @@
 {
   "name": "moiz-khan-portfolio",
-  "homepage": "https://moizkhan.github.io/my-portfolio",
+  "homepage": "https://moizhanifdev.github.io/my-portfolio",
   "description": "My portfolio website built with React, Vite, and Tailwind CSS.",
   "author": "Moiz Khan",
   "private": true,
@@ -11,7 +11,7 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+   "deploy": "gh-pages -d dist",
     "preview": "vite preview"
   },
   "dependencies": {
