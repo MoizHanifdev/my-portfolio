@@ -218,19 +218,19 @@ const Contact = () => {
             
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
               <ContactInfoCard 
-                icon={<Mail size={24} />}
+                icon={<Mail width={24} height={24} />}
                 title="Email"
                 content="moizhanif.dev@gmail.com"
               />
               
               <ContactInfoCard 
-                icon={<Phone size={24} />}
+                icon={<Phone width={24} height={24} />}
                 title="Phone"
                 content="+92 3235086899"
               />
               
               <ContactInfoCard 
-                icon={<MapPin size={24} />}
+                icon={<MapPin width={24} height={24} />}
                 title="Location"
                 content="Kot Radha Kishan, Punjab, Pakistan"
               />
